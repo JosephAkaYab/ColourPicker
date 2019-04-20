@@ -1,0 +1,15 @@
+﻿<Window x:Class="ColourPicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColourPicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1500" Width="1500">
+    <Grid>
+        <Rectangle x:Name="rctBackground" Fill="White" HorizontalAlignment="Left" Height="1469" Stroke="Black" VerticalAlignment="Top" Width="1492" Loaded="rctBackground_Loaded"/>
+        <Button x:Name="btnNo"  Margin="782,1230,10,10" Background="#FFEF5350" Click="btnNo_Click"/>
+        <Button x:Name="btnYes"  Margin="10,1230,782,10" Background="#FF66BB6A" Click="btnYes_Click"/>
+        <TextBox x:Name="txtDebug" HorizontalAlignment="Left" Height="266" Margin="0,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1382" FontSize="100" Background="Transparent" BorderBrush="#00ABADB3" IsEnabled="False"/>
+    </Grid>
+</Window>
